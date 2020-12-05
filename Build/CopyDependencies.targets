@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <Target Name="PostBuildCopyDependencies" AfterTargets="Build">
+    <Copy
+      SourceFiles="$(ProjectDir)..\..\Dependencies\freetype6\win-x86\freetype6.dll"
+      DestinationFolder="$(ProjectDir)$(OutputPath)runtimes\win-x86\native\"
+      SkipUnchangedFiles="true" />
+    <Copy
+      SourceFiles="$(ProjectDir)..\..\Dependencies\freetype6\win-x64\freetype6.dll"
+      DestinationFolder="$(ProjectDir)$(OutputPath)runtimes\win-x64\native\"
+      SkipUnchangedFiles="true" />
+  </Target>
+</Project>

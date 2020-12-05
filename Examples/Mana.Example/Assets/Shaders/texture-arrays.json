@@ -1,0 +1,4 @@
+﻿{
+  "Vertex": "texture-arrays.vert",
+  "Fragment": "texture-arrays.frag"
+}

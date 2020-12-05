@@ -1,0 +1,8 @@
+{
+  "Front": "./front.jpg",
+  "Back": "./back.jpg",
+  "Left": "./left.jpg",
+  "Right": "./right.jpg",
+  "Up": "./up.jpg",
+  "Down": "./down.jpg"
+}
